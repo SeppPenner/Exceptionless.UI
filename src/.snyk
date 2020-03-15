@@ -8,3 +8,5 @@ patch:
         patched: '2020-03-15T22:33:08.724Z'
     - gulp > vinyl-fs > glob-stream > extend:
         patched: '2020-03-15T22:33:08.724Z'
+    - snyk > proxy-agent > pac-proxy-agent > get-uri > extend:
+        patched: '2020-03-15T22:35:26.894Z'
