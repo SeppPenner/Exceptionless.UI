@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - gulp > gulp-cli > liftoff > extend:
+        patched: '2020-03-15T22:33:08.724Z'
+    - gulp > vinyl-fs > glob-stream > extend:
+        patched: '2020-03-15T22:33:08.724Z'
